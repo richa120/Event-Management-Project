@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Poppins;
+}
+/*Navbar*/
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15%;
+}
+.nav-bar li {
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  color: black;
+
+}
+.nav-bar i {
+  color: red;
+  margin: 10px 0;
+}
+.nav-bar label {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 10px;
+  font-weight: 700;
+  color: black;
+}
+.nav-bar label pre {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 10px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+}
+.nav-items ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Section-1*/
+.section-1 .img1 {
+  background-image: no-repeat center center/cover;
+  height: 91vh;
+  width: 90vw;
+  background-color: white;
+  margin: 0 5vw;
+}
+.section-1 .img2 {
+  margin: 0 5vw;
+  width: 90vw;
+}
+.section-1 .b-p,.b-h {
+  position: absolute;
+  color: white;
+}
+.section-1 .b-p {
+  font-size: 32px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  top: 500px;
+  left: 270px;
+}
+.section-1 .b-h {
+  top: 555px;
+  left: 270px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 1.1;
+}
+.section-1 .w-p,.w-h {
+  position: absolute;
+  color: white;
+}
+.section-1 .w-p {
+  font-size: 32px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  top: 1500px;
+  left: 270px;
+}
+.section-1 .w-h {
+  top: 1550px;
+  left: 270px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 1.1;
+}
+
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 5% 20%;
+  background: white;
+}
+.section-2 img {
+  border-radius: 20px 0 20px 0;
+}
+.section-2 .text {
+  padding: 10px 50px;
+}
+.section-2 .text h1{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: 'Poppins';
+  color: black;
+}
+.text h4 {
+  font-size: 20px;
+}
+.section-2 .text h1 span {
+  color: red;
+}
+.text p {
+  line-height: 1.5;
+  font-family: Roboto, sans-serif ;
+  color: #777;
+}
+
+.section-3 {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 0 10%;
+  background: white;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+  color: black;
+}
+.section-3 i {
+  color: red;
+  display: inline;
+  
+}
+
+.section-4 {
+  background: url('../Images/back.jpg') no-repeat center center/cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 15%;
+  height: 600px;
+  color: white;
+  margin-bottom: 900px;
+}
+.section-4 .left {
+  padding-right: 100px;
+}
+.section-4 .left h1 {
+  font-size: 50px;
+  font-family: 'Poppins';
+  color: black;
+}
+.section-4 .left h1 span {
+  color: red;
+  font-family: 'Poppins';
+}
+.section-4 .left h4 {
+  font-size: 24px;
+  color: black;
+}
+.section-4 .left p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+.section-4 .right img {
+  widows: 50px;
+  height: 50px;
+  position: absolute;
+  left: 870px;
+}
+.section-4 .right h3 {
+  display: inline;
+  font-size: 24px;
+  color: black;
+  margin-top: 50px;
+}
+
+.section-4 .right p {
+  font-size: 17px;
+  line-height: 1.3;
+  font-family: 'Roboto', sans-serif ;
+  margin-bottom: 50px;
+}
+
+.section-5 .onee {
+  position: absolute;
+  top: 3600px;
+  left: 50px;
+}
+.section-5 .twoo {
+  position: absolute;
+  top: 3850px;
+  left: 500px;
+}
+.section-5 .three {
+  position: absolute;
+  top: 3900px;
+  left:1100px;
+  padding-right: 150px;
+}
+.section-5 .three h1 {
+  font-size: 40px;
+  font-family: 'Poppins';
+  color: black;
+}
+.section-5 .three span {
+  color: red;
+}
+.section-5 .three p {
+  font-size: 17px;
+  line-height: 1.3;
+}
+.three li {
+  line-height: 1.6;
+}
+
+.section-6 h1 {
+  font-size: 40px;
+  font-family: 'Poppins';
+  color: black; 
+}
+.section-6 p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.section-6 span {
+  color: red;
+}
+.section-6 .gallery {
+  margin: 0 400px;
+}
+.section-6 .grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.section-7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 50px 20px;
+}
+.section-7 .box1 {
+  background: green;
+  border-radius: 15px 0 15px 0;
+  height: 270px;
+  text-align: center;
+  padding-top: 50px;
+}
+.section-7 .box1,.box2 h1,button {
+  color: white;
+}
+.section-7 .box1 button {
+  background: none;
+  border: 1px white solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.section-7 .box2 {
+  background: blue;
+  border-radius: 15px 0 15px 0;
+  height: 270px;
+  text-align: center;
+  padding-top: 50px;
+}
+.section-7 .box2 button {
+  background: none;
+  border: 1px white solid;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.section-8 {
+  background: url('../Images/back3.jpg');
+  padding: 50px 0;
+}
+.section-8 .container {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  margin: 0 10px;
+  grid-gap: 10px;
+}
+.section-8 .container h2,.white,i
+{
+  color: white;
+}
+.section-8 i {
+  margin-right: 10px;
+}
+.section-8 .container p {
+  font-family: 'Roboto', sans-serif ;
+}
+.section-9 h1 {
+  font-family: 'Poppins';
+}
+.section-9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0 0 0;
+}
+.section-9 .form {
+  color: white;
+  text-align: center;
+  background: #fe3e01;
+  padding-top: 100px;
+}
+.section-9 .form input,textarea,button {
+  background: #fe3e01;
+  border: none;
+}
+.section-9 .form input {
+  padding: 10px 200px 20px 5px;
+  border-bottom: 1px white solid;
+  margin-left: 50px;
+}
+
+::placeholder { 
+  color: white;
+  font-size: 15px;
+}
+.section-9 .form textarea {
+  border-bottom: 1px white solid;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.section-9 .form button {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  background: white;
+  color: black;
+}
+
+/*footer*/
+footer {
+  background: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;]
+
+}
+footer .logo i {
+  color: red;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+}
+footer i,label {
+  display: inline-block;
+}
+footer label {
+  font-size: 1.5rem;
+}
+
+
+
+/* Services */
+
+#section-01 img {
+  width: 100vw;
+  height: 60vh;
+}
+#section-01 .text {
+  position: absolute;
+  top: 400px;
+  left: 40vw;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#section-02 {
+  margin-bottom: 100px;
+}
+#section-02 .div-1 {
+  margin-top: 100px;
+  text-align: center;
+}
+#section-02 .div-1 h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  
+}
+#section-02 .div-1 h1 span {
+color: #fe3e01;
+font-weight: 600;
+}
+#section-02 i {
+  color: red;
+  display: inline-block;
+  margin-right: 10px;
+}
+#section-02 .gridd h3 {
+  display: inline-block;
+}
+#section-02 .div-1 p {
+margin-bottom: 22px;
+font-size: 18px;
+line-height: 1.67;
+color: #222;
+font-family: Roboto, sans-serif !important;
+}
+
+#section-02 .gridd {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px 300px;
+  grid-gap: 10px;
+
+}
+#section-02 .gridd p {
+  color: #777;
+  line-height: 1.4;
+}
+
+/* Section 3 */
+
+#section-03 span {
+  color: #fe3e01;
+}
+#section-03 .gridd2 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  margin: 50px 300px;
+  text-align: center;
+}
+#section-03 .gridd2 h1 {
+  margin-bottom: 3px;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+#section-03 .gridd2 .subtitle {
+padding-bottom: 27px;
+font-family: 'PT Serif';
+font-style: italic;
+color: #777;
+border-bottom: 1px solid #ddd;
+letter-spacing: 0.08em;
+margin-bottom: 50px;
+}
+#section-03 .gridd2 .circle span{
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  color: white;
+}
+#section-03 .gridd2 .circle {
+  background: #777;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  
+}
+#section-03 .title {
+  margin-left: 310px;
+}
+#section-03 .gridd2 .circle p {
+  color: white;
+  font-size: 30px;
+  margin-top: 9px;
+}
+.gridd2 .box-01,.box-02,.box-03 {
+  -webkit-box-shadow: 2px 10px 44px -16px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 10px 44px -16px rgba(0,0,0,0.75);
+  box-shadow: 2px 10px 44px -16px rgba(0,0,0,0.75);
+}
+
+.gridd2 .box-02 #red {
+  background: red;
+}
+.gridd2 .links {
+  margin-bottom: 30px;
+}
+.gridd2 button {
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 17px;
+  border-radius: 30px;
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/*Events*/
+
+.event-back img {
+  background: no-repeat center;
+  height: 50vh;
+  width: 100vw;
+}
+#section-01 .text1 {
+position: absolute;
+top: 400px;
+left: 43vw;
+color: white;
+text-align: center;
+font-size: 2.5rem;
+}
+#section-01 .text1 .primary-title {
+  position: absolute;
+  margin: auto;
+  color: white;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px 300px;
+  grid-gap: 10px;
+}
+.grid4 img {
+  width: 325px;
+}
+.grid4 h3 {
+  text-align: center;
+}
+.grid4 i {
+  color: red;
+  margin-right: 10px;
+  display: inline;
+}
+.grid4 p {
+  display: inline;
+  color: gray;
+}
+
+/* About */
+
+.grid-about {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 7% 20%;
+  text-align: center;
+  line-height: 1.3;
+}
+.grid-about img {
+  width: 322px;
+  height: 180px;
+  padding-left: 30px;
+}
+
+.grid-about p {
+  color: gray;
+}
+.grid-about2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-about2 img {
+  background-position: center cover no-repeat;
+  width: 50vw;
+  height: 100vh;
+}
+.grid-about2 .about-text {
+  text-align: left;
+  padding: 7% 15%;
+  padding-top: 200px;
+}
+.grid-about2 .about-text p {
+  color: gray;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.grid-about2 span {
+  color: red;
+}
+.grid-about2 .about-text i {
+  color: red;
+  display: inline;
+  margin-right: 10px;
+}
+.grid-about2 .about-text h1 {
+  display: inline;
+  
+}
+.grid-about2 .about-text .lists p{
+  margin-left: 35px;
+  font-size: 18px;
+  padding-bottom: 50px;
+  line-height: 1.3;
+}
+.grid-about2 .about-text .lists h1 {
+  font-size: 24px;
+}
+
+.grid-about-contri {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 100px 300px;
+  grid-gap: 50px
+}
+.grid-about-contri span {
+  color: darkgray;
+  font-weight: 600;
+}
+.grid-about-contri p {
+  color: gray;
+  line-height: 1.5;
+}
+
+/* Contacts */
+.head-contact {
+  text-align: center;
+  padding-top: 100px;
+}
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px 300px;
+  color: white;
+  grid-gap: 40px;
+}
+.section-grid .box-001 {
+  background: green;
+  padding: 50px;
+  border-radius: 20px 0 20px 0;
+}
+.section-grid .box-002 {
+  background: blue;
+  padding: 50px;
+  border-radius: 20px 0 20px 0;
+}
+.section-grid .box-003 {
+  background: gray;
+  padding: 50px;  
+  border-radius: 20px 0 20px 0;
+}
+.section-grid i {
+  margin-left: 85%;
+}
+.section-grid p {
+  font-size: 20px;
+}
+
+/* Blogs */
+.grid-blog {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 7% 15%;
+  grid-gap: 50px;
+}
+.grid-blog .blog-content {
+  color: gray;
+  line-height: 1.3;
+  font-size: 17px;
+}
+.grid-blog i {
+  color: red;
+  margin-right: 10px;
+}
+.grid-blog p {
+  display: inline;
+}
+.grid-blog img {
+  padding-top: 50px;
+}
+.right {
+  padding-right: 100px;
+}
+.right input {
+  border-radius: 30px;
+  padding: 7px 70px 7px 10px;
+  margin-bottom: 100px;
+}
+.right input::placeholder {
+  color: black;
+}
+
+.right .date {
+  color: red;
+}
