@@ -364,8 +364,7 @@ footer {
   background: black;
   color: white;
   padding: 10px 0;
-  text-align: center;]
-
+  text-align: center;
 }
 footer .logo i {
   color: red;
@@ -644,6 +643,7 @@ font-size: 2.5rem;
   margin: 50px 300px;
   color: white;
   grid-gap: 40px;
+  font-size: 24px;
 }
 .section-grid .box-001 {
   background: green;
